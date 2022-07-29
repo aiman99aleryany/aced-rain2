@@ -43,7 +43,17 @@ body {
 }
 
 .animate {
-  transition-delay: 5s;
-  transition-duration: 5s, 5s;
-  transition-property: transform, width;
+  transition-delay: 0.5s;
+  transition-duration: 3s;
+  transition-property: transform width;
+}
+
+.animate:hover {
+  width: 200px;
+  height: 200px;
+}
+
+.animate:active {
+  width: 200px;
+  height: 200px;
 }

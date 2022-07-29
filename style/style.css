@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* background: #0b2429; */
+  background-color: red;
+}
+
+.half-circle1 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  background: #998235;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.half-circle2 {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border-top-right-radius: 0;
+  background: #f3ac3c;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-100%);
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #f3ac3c;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-100%);
+}
+
+.animate {
+  transition-delay: 5s;
+  transition-duration: 5s;
+  transition-property: transform width;
+}
